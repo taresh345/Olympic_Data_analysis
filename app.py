@@ -9,8 +9,8 @@ import plotly.figure_factory as ff
 
 
 
-df=pd.read_csv('D://ML ineuron//olympic DATA analysis//archive//athlete_events.csv')
-region_df=pd.read_csv("D://ML ineuron//olympic DATA analysis//archive//noc_regions.csv")
+df=pd.read_csv('archive/athlete_events.csv')
+region_df=pd.read_csv("archive/noc_regions.csv")
 
 S_df=preprocesser.preprocess(df,region_df)
 
